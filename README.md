@@ -68,7 +68,7 @@ In order to create a balanced query set from the training data One should follow
 
 1) As the first step, given a query set Q, gender of the queries should be identified using a gender classifier. For this purpose we employed the [gender classifier model](https://github.com/aminbigdeli/Text-Classification-using-Transformers) proposed by Bigdeli et. al. and selected 14K female as well as 14K male queries from the MSMARCO training set queries. The resulting female and male queries are provided in [data/female_train.tsv](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/tree/main/data/female_train.tsv), and [data/male_train.tsv](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/tree/main/data/male_train.tsv) respectively.
                                                                                   
-2) Calculate BM25 scores of each of the queries and their corresponding relevant document using [calculate_bm25_scores.py](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/calculate_bm25_scores.py).
+2) Calculate BM25 scores of each of the queries and their corresponding relevant document using [calculate_bm25_scores.py](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/blob/main/calculate_bm25_scores.py).
                                                                                   
 3) Finally, the balanced query set is generated with either of these two strategies which are explained in the following.
 
