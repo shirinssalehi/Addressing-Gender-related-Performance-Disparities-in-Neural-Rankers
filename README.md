@@ -80,10 +80,10 @@ The balanced female and male queries are provided in [data/female_balanced_query
 
 1) For each pair of (query, relevant document) in the unbalanced data, we generate 1000 queries from the relevant document. For this purpose, we employ [doct5Query](https://github.com/castorini/docTTTTTquery).
                                                                    
-2) For each of the generated queries, the BM25 score between the generated query and it's relevant document is calculated using [calculate_bm25_scores.py](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/calculate_bm25_scores.py).
-3) The balancing queries are added to the dataset with the script [query_generation.py](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/query_generation.py).
+2) For each of the generated queries, the BM25 score between the generated query and it's relevant document is calculated using [calculate_bm25_scores.py](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/blob/main/calculate_bm25_scores.py).
+3) The balancing queries are added to the dataset with the script [query_generation.py](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/blob/main/query_generation.py).
                                                                    
-The balanced female and male queries are provided in [female_balanced_query_generation.tsv](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/data/female_balanced_query_generation.tsv) and [female_balanced_query_generation.tsv](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/data/female_balanced_query_generation.tsv), respectively.
+The balanced female and male queries are provided in [female_balanced_query_generation.tsv](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/tree/main/data/female_balanced_query_generation.tsv) and [female_balanced_query_generation.tsv](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/tree/main/data/female_balanced_query_generation.tsv), respectively.
 
 
 
