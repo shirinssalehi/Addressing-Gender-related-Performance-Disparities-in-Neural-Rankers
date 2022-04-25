@@ -73,7 +73,7 @@ In order to create a balanced query set from the training data One should follow
 3) Finally, the balanced query set is generated with either of these two strategies which are explained in the following.
 
 #### Query Matching
-In order to create the balanced query set with the "query matching" strategy run [query_matching.py](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/query_matching.py).
+In order to create the balanced query set with the "query matching" strategy run [query_matching.py](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/blob/main/query_matching.py).
 The balanced female and male queries are provided in [data/female_balanced_query_matching.tsv](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/data/female_balanced_query_matching.tsv) and [data/male_balanced_query_matching.tsv](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/data/male_balanced_query_matching.tsv), respectively.
 
 #### Query Generation
