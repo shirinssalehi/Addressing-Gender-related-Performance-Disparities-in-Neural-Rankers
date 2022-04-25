@@ -59,7 +59,7 @@ We report our findings in Table 1 and figures 1 and 2.
 
 ## Dataset
 
-We perform our experoments on the MSMARCO training dataset. The unbalanced female and male query sets as well as the two balanced sets are provided in [data](https://b10200cbde7d/r/gender-related-performance-gap-9BBF/data).
+We perform our experoments on the MSMARCO training dataset. The unbalanced female and male query sets as well as the two balanced sets are provided in [data](https://github.com/shirinssalehi/Addressing-Gender-related-Performance-Disparities-in-Neural-Rankers/tree/main/data).
 
 
 ## Usage
